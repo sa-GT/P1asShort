@@ -418,6 +418,55 @@ nav-item:nth-child(4){
     left: 18px;
     height: 118px;
   }
+  #imggs{
+    width:275px ;
+  }
+  #imggs2{
+    width: 194px;
+  }
+  #imggs3{
+    width: 129px;
+  }
+  #wehelp{
+    margin-top: 63px;
+  }
+  #bhelp{
+    margin: 44px 0px 0px 124px !important;
+  }
+  .flex-row{
+    flex-direction: column !important;
+  }
+  #ds{
+    width: 356px !important;
+  }
+  #ch{
+    left: 82px !important;
+    height: 228px !important;
+  }
+  .view-all{
+    left: 66% !important;
+    width: 119px;
+  }
+  .h2h{
+    right: 42% !important;
+    width: 306px;
+  }
+  .inputt{
+    left:17% !important;
+    bottom:24% !important;
+    width: 318px;
+  }
+  .imgg1{
+    position: absolute;
+    top: 137px;
+    width: 99% !important;
+  }
+  .footer{
+    height: auto !important;
+  }
+  .footer .footer-top{
+    width: 404px !important;
+  }
 }
 </style>
 </head>
@@ -432,13 +481,25 @@ nav-item:nth-child(4){
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#" style="color: #000;"><u style="color:#ffd748;"><span style="color:black;">Home</span></u></a>
+                <a class="nav-link active" aria-current="page" href="#" ><u style="color:#ffd748;"><span style="color: white;">Home</span></u></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" style="color: #000;">Features</a>
+                <a class="nav-link" href="#" >About us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" style="color: #000;">Pricing</a>
+                <a class="nav-link" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+               <li class="nav-item" style="margin-top: 10px;">
+                <i class="bi bi-person-circle" style="color: white;"></i>
+              </li>
+              <li class="nav-item" style="margin-top: 10px; margin-left: 10px;">
+                <i class="bi bi-cart-fill" style="color: white;"></i>
               </li>
             </ul>
           </div>
@@ -533,11 +594,11 @@ nav-item:nth-child(4){
               <!-- Image Section -->
               <div class="col-md-6 position-relative">
                 <img src="image/Mask group (1).png" class="img-fluid rounded" id="imggs">
-                <img src="image/Mask group (2).png" style="position: absolute;bottom: 40%;left: 50%;top: 40%;" id="imggs">
-                <img src="image/Mask group (3).png" style="position: absolute;bottom: 62%;" id="imggs">
+                <img src="image/Mask group (2).png" class="img-fluid rounded" style="position: absolute;bottom: 40%;left: 50%;top: 40%;" id="imggs2">
+                <img src="image/Mask group (3).png" class="img-fluid rounded" style="position: absolute;bottom: 62%;" id="imggs3">
               </div>
               <!-- Text Section -->
-              <div class="col-md-6">
+              <div class="col-md-6" id="wehelp">
                 <h2 class="mb-4">We help  you make 
                     Modern Interior Design </h2>
                 <p class="lead">Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was for us to know what was to be done. the this is a long  post for the text.`This small text has to be place here, since this is a place holder. You can also chane it.</p>
@@ -558,7 +619,7 @@ nav-item:nth-child(4){
                   <div class="col-6 feature-box">
                     <h5 class="mt-3"><img src="image/Ellipse 67.png" alt=""> Donec mattis porta eros,let aliquet finibus ri</h5>
                   </div>
-                    <button style="width: 140px;padding: 10px;border-radius: 20px;background-color: #35736E;color: white;margin: 65px 0px 0px 30px;">Explore</button>
+                    <button id="bhelp" style="width: 140px;padding: 10px;border-radius: 20px;background-color: #35736E;color: white;margin: 65px 0px 0px 30px;">Explore</button>
                 </div>
               </div>
             </div>
@@ -568,9 +629,9 @@ nav-item:nth-child(4){
               <!-- Card 1 -->
               <div class="card">
                 <div class="row g-0 align-items-center">
-                  <div class="col-md-4">
-                    <img src="image/product-1 (1).png" class="img-fluid rounded-start position-relative" alt="Product 1" style="z-index: 2;">
-                    <img src="image/Rectangle 10.png" style="position: absolute; left:-1%; top:30%; z-index: 1;">
+                  <div class="col-md-4" id="ds">
+                    <img src="image/product-1 (1).png" class="img-fluid rounded-start position-relative" alt="Product 1" style="z-index: 2;" id="ch">
+                    <img src="image/Rectangle 10.png" style="position: absolute; left:-1%; top:30%; z-index: 1;" id="ds">
                   </div>                  
                   <div class="col-md-8">
                     <div class="card-body">
@@ -586,8 +647,8 @@ nav-item:nth-child(4){
               <div class="card">
                 <div class="row g-0 align-items-center">
                   <div class="col-md-4">
-                    <img src="image/product-2 (1).png" class="img-fluid rounded-start position-relative" alt="Product 2" style="z-index: 2;">
-                    <img src="image/Rectangle 10.png" style="position: absolute; left:-1%; top:30%; z-index: 1;">
+                    <img src="image/product-2 (1).png" class="img-fluid rounded-start position-relative" alt="Product 2" style="z-index: 2;" id="ch">
+                    <img src="image/Rectangle 10.png" style="position: absolute; left:-1%; top:30%; z-index: 1;" id="ds">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
@@ -604,8 +665,8 @@ nav-item:nth-child(4){
               <div class="card">
                 <div class="row g-0 align-items-center">
                   <div class="col-md-4">
-                    <img src="image/product-3 (1).png" class="img-fluid rounded-start position-relative" alt="Product 3" style="z-index: 2;">
-                    <img src="image/Rectangle 10.png" style="position: absolute; left:-1%; top:30%; z-index: 1;">
+                    <img src="image/product-3 (1).png" class="img-fluid rounded-start position-relative" alt="Product 3" style="z-index: 2;" id="ch">
+                    <img src="image/Rectangle 10.png" style="position: absolute; left:-1%; top:30%; z-index: 1;" id="ds">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
@@ -665,8 +726,8 @@ nav-item:nth-child(4){
   <div class="container product-section">
     <!-- Header Above Products -->
     <div class="text-center mb-5 position-relative">
-      <h2 style="position: absolute;right: 78%;">Recently Blog</h2>
-      <div class="view-all " style="position: absolute;left: 90%;">
+      <h2 style="position: absolute;right: 78%;" class="h2h">Recently Blog</h2>
+      <div class="view-all" style="position: absolute;left: 90%;">
         View All Posts
       </div>
     </div>
@@ -717,7 +778,7 @@ nav-item:nth-child(4){
         </form>
       </div>
       <div class="inputt" style="width: 50%;">
-        <img src="image/sofa 1.png" alt="" style="position: absolute;left: 60%;bottom: 10%;" >
+        <img src="image/sofa 1.png" alt="" style="position: absolute;left: 60%;bottom: 10%;" class="inputt" >
       </div>
     </div>
       <div class="container footer-top">
